@@ -34,7 +34,7 @@
 
 # 📖 Hello Rails React <a name="about-project"></a>
 
-**Hello Rails React** is a simple web app that combines functionalities of Ruby on Rails and React. It allows users to get a random greeting from the backend API.
+**Hello Rails React** is a simple web app that combines functionalities of Ruby on Rails and React. It allows users to get a random greeting from the backend API. Click [here](https://github.com/anasbassi/hello-react-front-end) to view the backend repository.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -83,8 +83,6 @@ In order to run this project you need:
 
 - Ruby development environment
 - Rails
-- Node
-- npm or yarn
 
 ### Setup
 
@@ -92,7 +90,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/anasbassi/hello-rails-react.git
+  git clone https://https://github.com/anasbassi/hello-rails-back-end.git
 ```
 
 ### Install
@@ -100,9 +98,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello-rails-react
+  cd hello-rails-back-end
   bundle install
-  yarn install || npm install
 ```
 
 ### Usage
@@ -111,7 +108,6 @@ To run the project, execute the following command:
 
 ```sh
   rails s
-  npm run build --watch
 ```
 
 ### Run tests
